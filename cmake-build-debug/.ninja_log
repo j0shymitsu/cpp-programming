@@ -1,7 +1,13 @@
 # ninja log v6
-1	158	1757426064403124330	CMakeFiles/cpp_programming.dir/main.cpp.o	255e33f513612aea
-158	209	1757426064559124636	cpp_programming	40dbd3c398a5e30
-0	150	1757426214656415421	CMakeFiles/cpp_programming.dir/main.cpp.o	255e33f513612aea
-150	206	1757426214805415707	cpp_programming	40dbd3c398a5e30
-1	152	1757426477686911525	CMakeFiles/cpp_programming.dir/main.cpp.o	255e33f513612aea
+1	154	1757497732036677892	CMakeFiles/cpp_programming.dir/hello_world.cpp.o	b4385ce74342c459
+1	23	1757497960674777354	/home/josh/Documents/code/cpp-programming/cmake-build-debug/cmake_install.cmake	ba8828a506d87950
+1	23	1757497960674777354	build.ninja	ba8828a506d87950
+1	165	1757497697509158861	CMakeFiles/cpp_programming.dir/main.cpp.o	255e33f513612aea
 152	197	1757426477837911807	cpp_programming	40dbd3c398a5e30
+1	268	1757497697510158906	CMakeFiles/cpp_programming.dir/data_types_keywords.cpp.o	1d2cdbb2e72249e
+1	16	1757497960674777354	build.ninja	ba8828a506d87950
+1	16	1757497960674777354	/home/josh/Documents/code/cpp-programming/cmake-build-debug/cmake_install.cmake	ba8828a506d87950
+0	151	1757497960679777499	CMakeFiles/hello_world.dir/hello_world.cpp.o	d8bc430f62668a65
+151	209	1757497960830781903	hello_world	9d3927f93f10db18
+1	259	1757497960680777528	CMakeFiles/data_types.dir/data_types_keywords.cpp.o	3ceac9bf44177309
+259	307	1757497960938785053	data_types	7cd9eda4b400beaf

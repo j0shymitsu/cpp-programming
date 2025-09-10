@@ -3,4 +3,6 @@ project(cpp_programming)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_programming main.cpp)
+add_executable(hello_world hello_world.cpp)
+add_executable(data_types data_types_keywords.cpp)
+
