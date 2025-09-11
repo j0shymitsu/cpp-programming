@@ -110,6 +110,76 @@ build data_types: CXX_EXECUTABLE_LINKER__data_types_Debug CMakeFiles/data_types.
   TARGET_FILE = data_types
   TARGET_PDB = data_types.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target variables
+
+
+#############################################
+# Order-only phony target for variables
+
+build cmake_object_order_depends_target_variables: phony || .
+
+build CMakeFiles/variables.dir/variables.cpp.o: CXX_COMPILER__variables_unscanned_Debug /home/josh/Documents/code/cpp-programming/variables.cpp || cmake_object_order_depends_target_variables
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/variables.dir/variables.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variables.dir
+  OBJECT_FILE_DIR = CMakeFiles/variables.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variables
+
+
+#############################################
+# Link the executable variables
+
+build variables: CXX_EXECUTABLE_LINKER__variables_Debug CMakeFiles/variables.dir/variables.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/variables.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/variables.dir/link.d
+  OBJECT_DIR = CMakeFiles/variables.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variables
+  TARGET_PDB = variables.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variable_arrays
+
+
+#############################################
+# Order-only phony target for variable_arrays
+
+build cmake_object_order_depends_target_variable_arrays: phony || .
+
+build CMakeFiles/variable_arrays.dir/variable_arrays.cpp.o: CXX_COMPILER__variable_arrays_unscanned_Debug /home/josh/Documents/code/cpp-programming/variable_arrays.cpp || cmake_object_order_depends_target_variable_arrays
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/variable_arrays.dir/variable_arrays.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/variable_arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/variable_arrays.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variable_arrays
+
+
+#############################################
+# Link the executable variable_arrays
+
+build variable_arrays: CXX_EXECUTABLE_LINKER__variable_arrays_Debug CMakeFiles/variable_arrays.dir/variable_arrays.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/variable_arrays.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/variable_arrays.dir/link.d
+  OBJECT_DIR = CMakeFiles/variable_arrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variable_arrays
+  TARGET_PDB = variable_arrays.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -151,7 +221,7 @@ build codegen: phony
 #############################################
 # Folder: /home/josh/Documents/code/cpp-programming/cmake-build-debug
 
-build all: phony hello_world data_types
+build all: phony hello_world data_types variables variable_arrays
 
 # =============================================================================
 # Built-in targets
