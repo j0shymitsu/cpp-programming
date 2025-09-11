@@ -1,6 +1,0 @@
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/hello_world.dir
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/data_types.dir
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/variables.dir
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/variable_arrays.dir
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/josh/Documents/code/cpp-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
