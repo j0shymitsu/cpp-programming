@@ -33,8 +33,10 @@ int main()
     pPigeon -> Fly();
     pChicken -> Talk();
     pChicken -> Fly();
+    
+    // Base class methods can still be called explicitly using the scope resolution operator, but may be incosistent:
     pPigeon -> Bird::Talk();
     pChicken -> Bird::Fly();    // Inappropriate call
-    
+
     return 0;
 }
